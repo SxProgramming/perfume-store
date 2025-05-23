@@ -46,11 +46,12 @@ INSERT INTO products (category_id, name, brand, description, price, image_url, s
 (1, 'Rosa Éternelle', 'Maison de Aura', 'Un clásico floral reinventado, elegante y atemporal. Corazón de rosa de mayo y peonía.', 190.00, 'images/perfume-fem-1.png', 'AURA-RE-002', 'Floral,Clásico'),
 (1, 'Fleur de Lune', 'Jardins Secrets', 'Un bouquet luminoso y delicado con toques de nardo y gardenia blanca.', 175.00, 'images/perfume2.png', 'JDS-FL-003', 'Floral,Luminoso'),
 
-(2, 'Bois Intense', 'Artisan Parfums', 'Un aroma amaderado profundo y especiado con un toque de vetiver y cuero.', 210.00, 'images/perfume-masc-1.png', 'ARTP-BI-001', 'Más Vendido,Amaderado,Intenso'),
+(2, 'Bois Intense', 'Artisan Parfums', 'Un aroma amaderado profundo y especiado con un toque de vetiver y cuero.', 210.00, 'images/perfume2.png', 'ARTP-BI-001', 'Más Vendido,Amaderado,Intenso'),
 (2, 'Acier Frais', 'Urban Essence', 'Una fragancia vibrante y metálica con notas cítricas y acuáticas.', 160.00, 'images/perfume3.png', 'URBE-AF-002', 'Fresco,Metálico'),
 
-(3, 'Ambre Mystique', 'Atelier Naturel', 'Un ámbar cálido y envolvente con matices de incienso y vainilla negra.', 195.00, 'images/perfume-unisex-1.png', 'ATLN-AM-001', 'Unisex,Ámbar,Misterioso'),
-(3, 'Thé Vert Impérial', 'Les Essences Rares', 'La pureza refrescante del té verde sencha con un toque de bergamota y jazmín.', 170.00, 'images/perfume-unisex-2.png', 'LSER-TVI-002', 'Unisex,Fresco,Té Verde');
+(3, 'Ambre Mystique', 'Atelier Naturel', 'Un ámbar cálido y envolvente con matices de incienso y vainilla negra.', 195.00, 'images/perfume1.png', 'ATLN-AM-001', 'Unisex,Ámbar,Misterioso'),
+(3, 'Thé Vert Impérial', 'Les Essences Rares', 'La pureza refrescante del té verde sencha con un toque de bergamota y jazmín.', 170.00, 'images/perfume3.png', 'LSER-TVI-002', 'Unisex,Fresco,Té Verde');
+
 
 -- Nota: Crea imágenes placeholder si no las tienes:
 -- perfume-fem-1.png, perfume-masc-1.png, perfume-unisex-1.png, perfume-unisex-2.png
