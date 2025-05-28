@@ -34,9 +34,9 @@ CREATE TABLE IF NOT EXISTS products (
 SET FOREIGN_KEY_CHECKS=1;
 
 INSERT INTO categories (name, slug, description, image_url) VALUES
-('Esencias Femeninas', 'esencias-femeninas', 'Fragancias que celebran la gracia y el poder interior.', 'images/category-femenino.jpg'),
-('Aromas Masculinos', 'aromas-masculinos', 'Notas audaces para el hombre contemporáneo y carismático.', 'images/category-masculino.jpg'),
-('Firmas Unisex', 'firmas-unisex', 'Esencias versátiles que desafían convenciones y unen mundos.', 'images/category-unisex.jpg');
+('Esencias Femeninas', 'esencias-femeninas', 'Fragancias que celebran la gracia y el poder interior.', '/frontend/images/category-femenino.jpg'),
+('Aromas Masculinos', 'aromas-masculinos', 'Notas audaces para el hombre contemporáneo y carismático.', '/frontend/images/category-masculino.jpg'),
+('Firmas Unisex', 'firmas-unisex', 'Esencias versátiles que desafían convenciones y unen mundos.', '/frontend/images/category-unisex.jpg');
 
 -- Esencias Femeninas (Total 9)
 INSERT INTO products (category_id, name, brand, description, price, image_url, sku, tags) VALUES

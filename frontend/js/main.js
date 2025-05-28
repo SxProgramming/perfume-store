@@ -749,7 +749,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Footer (Microinteracciones sin cambios de la versión anterior, si las tenías)
+    // Footer (Microinteracciones sin cambios de la versión anterior)
     // Asegurar que el año se actualice
     const currentYearSpan = document.getElementById('currentYear');
     if (currentYearSpan) currentYearSpan.textContent = new Date().getFullYear();
